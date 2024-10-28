@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7c7c7;
+    min-height: 100vh;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    gap:  30px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calculate {
+    margin-top: 20px;
+}
+
+
